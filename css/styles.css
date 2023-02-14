@@ -6,6 +6,12 @@ nav {
     background-color: #333;
     padding: 10px;
   }
+
+  h1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
   
   ul {
     list-style-type: none;
@@ -15,6 +21,7 @@ nav {
   
   li {
     margin-bottom: 10px;
+    content: "- ";
   }
   
   a {
@@ -24,3 +31,16 @@ nav {
     font-size: 18px;
   }
   
+  .centralizado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #paragrafo1 {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+  }
